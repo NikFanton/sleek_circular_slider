@@ -148,6 +148,7 @@ class _SleekCircularSliderState extends State<SleekCircularSlider>
       _setupPainter();
     }
     return RawGestureDetector(
+        behavior: HitTestBehavior.opaque,
         gestures: <Type, GestureRecognizerFactory>{
           _CustomPanGestureRecognizer:
               GestureRecognizerFactoryWithHandlers<_CustomPanGestureRecognizer>(
