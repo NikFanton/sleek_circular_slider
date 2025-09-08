@@ -1,10 +1,12 @@
-import 'package:flutter/material.dart';
-import 'clock_page.dart';
-import 'random_value_page.dart';
-import 'package:example/utils.dart';
 import 'dart:math' as math;
+
+import 'package:flutter/material.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
+
+import '../utils.dart';
+import 'clock_page.dart';
 import 'example_page.dart';
+import 'random_value_page.dart';
 
 /// Example 01
 final CircularSliderAppearance appearance01 = CircularSliderAppearance();
